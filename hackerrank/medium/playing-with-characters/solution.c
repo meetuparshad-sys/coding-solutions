@@ -5,9 +5,17 @@
 
 int main() 
 {
-    printf("C\n");
-    printf("Language\n");
-    printf("Welcome To C!!");
+       char ch;
+    char s[100];
+    char sen[100];
+
+    scanf("%c", &ch);
+    scanf("%s", s);
+    scanf(" %[^\n]", sen);
+
+    printf("%c\n", ch);
+    printf("%s\n", s);
+    printf("%s\n", sen);
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
