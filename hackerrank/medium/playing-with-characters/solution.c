@@ -5,13 +5,9 @@
 
 int main() 
 {
-	
-    
-    
-    
-     printf("Hello, World!\n");
-    printf("Welcome to C programming.");
-  	
+    printf("C\n");
+    printf("Language\n");
+    printf("Welcome To C!!");
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
